@@ -1,0 +1,56 @@
+main {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+
+.intro {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+
+.cardholder {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 28px;
+  padding: 34px 20px;
+}
+
+
+article {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 250px;
+  padding: 18px;
+  gap: 12px;
+  border-radius: 12px;
+}
+
+article img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+article a:hover {
+    padding: 1px;
+}
+
+@media(max-width:625px){
+    article {
+        width: 100%;
+    }
+    article img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+}
