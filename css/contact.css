@@ -45,7 +45,7 @@ button:active {
     padding: 8px;
 }
 
-@media(max-width: 500px) {
+@media(max-width: 500px) {   /* increased button size so it is easier to press on a mobile device */
     button {
         width: 100%;
     }

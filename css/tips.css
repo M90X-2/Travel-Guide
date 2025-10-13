@@ -40,13 +40,13 @@ main li {
     margin-bottom: 5px;
 }
 
-@media(max-width: 930px) and (min-width: 691px) {
+@media(max-width: 930px) and (min-width: 691px) {   /* shortened the tip box into 2 for each row */
     .tip {
         flex: 0 0 50%;
     }
 }
 
-@media(max-width: 690px){
+@media(max-width: 690px){  /* Shortened the box to 1, filled width, took away the outside border, increased the image to 100% to fill screen. */
     .tip {
         flex: none;
         flex-direction: column;

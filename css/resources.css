@@ -43,7 +43,7 @@ main li {
     margin-bottom: 10px; 
 }
 
-@media(max-width: 650px) {
+@media(max-width: 650px) {      /* Made the resources blocks into one for each row and filled to 100% width for easier viewing, and center the header for the blocks as well. */
     .block {
         flex: none;
         width: 100%;

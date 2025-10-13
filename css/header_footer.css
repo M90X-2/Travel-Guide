@@ -81,11 +81,11 @@ footer p:first-child {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 600px) {    /* changes nav into column for easier viewing, and moves the back to top button over slightly */
   .back-to-top { left: 10px; bottom: 10px; }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 550px) {  
 
   nav ul {
     flex-direction: column;

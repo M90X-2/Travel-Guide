@@ -43,7 +43,7 @@ article a:hover {
     padding: 1px;
 }
 
-@media(max-width:625px){
+@media(max-width:625px){   /* increased each article to fill the width and each image within the article to fill the width of the article */
     article {
         width: 100%;
     }
