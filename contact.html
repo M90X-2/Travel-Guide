@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./css/header_footer.css">
+    <link rel="stylesheet" href="./css/contact.css">
+</head>
+
+
+<body>
+   <header>
+    <h1>Your Guide to Hidden Destinations!</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="tips.html">Travel Tips</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a aria-current="page" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+    <main>
+        <section class="intro">
+        <h2>Contact Us</h2>
+            <p>Please fill out this form! You can Ask a question, suggest a destination, or request planning help.</p>
+        </section>
+        <section class="form">
+            <h3 class="sr-only">Contact form</h3>
+            <form action="#" method="get">
+              <div class="field">
+                <label for="name">Full Name</label>
+                  <input id="name" name="name" type="name" required autocomplete="name">
+              </div>
+            <div class="field">
+              <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required autocomplete="email">
+            </div>
+            <div class="field">
+              <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+
+
+        <div class="field">
+          <label for="topic">Topic</label>
+          <select id="topic" name="topic" required>
+            <option value="">Choose one</option>
+            <option value="destination">Destination suggestion</option>
+            <option value="planning">Planning help</option>
+            <option value="feedback">Site feedback</option>
+          </select>
+        </div>
+
+        <div class="field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" maxlength="700" required></textarea>
+        </div>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+    </main>
+    <footer>
+        <p>Recommended travel sites: 
+            <a href="https://www.lonelyplanet.com/" target="_blank">Lonely Planet</a> | 
+            <a href="https://www.nationalgeographic.com/travel/" target="_blank">National Geographic Travel</a>
+        </p>
+        <p>2025 Travel Destinations</p>
+    </footer>
+</body>
+</html>
